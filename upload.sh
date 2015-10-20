@@ -4,5 +4,5 @@ aws lambda create-function \
 --role arn:aws:iam::512081569182:role/lambda \
 --handler shrink_image.handler \
 --runtime python2.7 \
---timeout 10 \
+--timeout 300 \
 --memory-size 1024
